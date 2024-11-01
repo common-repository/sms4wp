@@ -1,0 +1,211 @@
+	body {
+	/*font-family:verdana;*/
+	/*font-size:15px;*/
+	}
+
+	a {color:#333; text-decoration:none}
+	a:hover {color:#ccc; text-decoration:none}
+
+	input#sender_phone {width:140px;}
+
+	#mask {
+	  position:absolute;
+	  left:0;
+	  top:0;
+	  z-index:9000;
+	  background-color:#000;
+	  display:none;
+	}
+	  
+	#boxes .window {
+	  position:fixed;
+	  left:0;
+	  top:0;
+	  width:440px;
+	  height:200px;
+	  display:none;
+	  z-index:9999;
+	  padding:20px;
+	}
+
+	#boxes #dialog {
+	  width:375px; 
+	  height:203px;
+	  padding:10px;
+	  background-color:#ffffff;
+	}
+
+	#message_body, #receiver_phone {width:300px;}
+
+	#boxes #dialog {
+	  width:375px; 
+	  height:203px;
+	  padding:10px;
+	  background-color:#ffffff;
+	}
+
+	.sms4wp-btn-receiver-group {
+		/*cursor:pointer;
+		background: #fafafa;
+		color: #222;*/
+		height:30px;
+		line-height:38px;
+		display:block !important;
+		vertical-align:text-top;
+		margin-bottom:0px;
+		vertical-align:bottom !important;
+		/*font-size: 13px;
+		font-weight: 600;*/
+		width:155px;
+		text-align:center;
+		/*padding:5px 10px;
+		border: 1px solid #e5e5e5;*/
+	}
+
+	.sms4wp-title h4 {
+		margin: 0;
+		padding: 15px;
+		line-height: 1;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		-webkit-user-select: none;
+		clear: both;
+		display: block;
+		font-weight: 600;
+	}
+
+	.sms4wp-msg-inside, .sms4wp-template-inside {
+		background:#FAFAFA;
+		display: block;
+		width:460px;
+		border: 1px solid #e5e5e5;
+		box-shadow: 0 1px 1px rgba(0,0,0,.04);
+		line-height: 1.3;
+		font-size:14px
+	}
+	.sms4wp-template-inside {margin-top:5px;}
+
+	.sms4wp-msg p { display:inline-block; width:100%; margin:10px;}
+	.sms4wp-control-actions {margin:30px 0px 10px 10px; }
+
+	.box_msg_addfile {height:0px;line-height:0px;font-size:0px;padding:0px !important;margin:0px;}
+
+	.msg_type_sms, .msg_type_lms, .msg_type_mms {display:inline-block;padding:2px 4px;}
+	.sms_selected {
+		background: #fafafa;
+		color: #222;
+		display:inline-block;
+		border: 1px solid #e5e5e5;
+		border-radius: 3px;
+	}
+	div.sms4wp-msg label {width:100%;}
+
+	input.date-text {width:100px;}
+	input.time-text {width:80px;}
+	input#sms4wp-numbers {width:40%;}
+	.exp {font-size:0.8em; color:#ccc;}
+
+	#receiver-search { width:140px; }
+	.receiver-list, .template-list { margin:5px; width:450px; border:1px solid #ededed; height:100px; overflow-y:auto; padding:0px; text-align:top;}
+	.receiver-list ul, .template-list ul { padding:0px; margin:0px; }
+	.receiver-list ul li, .template-list ul li { cursor:pointer; margin:1px; height:24px; line-height:24px; padding-left:5px; }
+	.receiver-list ul li:hover, .template-list ul li:hover { background:#F0F0F0; }
+	.receiver-exp { display:block; margin:10px 0px 0px 10px; }
+
+	.template-list {height:200px;}
+	.template-list ul li {height:auto; border-bottom:1px solid #F0F0F0;}
+	.template-list ul li span {display:block; font-weight:bold;}
+	.template-list ul li span.message {font-weight:normal;}
+
+	dl.receiver-group {padding:0px; margin:0px; margin-top:10px; width:460px; background:#fff;}
+	dl.receiver-group dd {padding:3px 5px; margin:0px; line-height:1.5em; border:1px solid #EAEAEA;}
+	dl.receiver-group dd:hover {background:#ededed;}
+	dl.receiver-group dd span.type {display:inline-block; width:50px; text-align:right;}
+	dl.receiver-group dd span.receiver-delete {display:inline-block; float:right; cursor:pointer;}
+	dl.receiver-group dd span.receiver-delete:hover {color:#fff;}
+
+.form-table {}
+.form-table tr {}
+.form-table tr th {font-weight:600; color:#808080;}
+.form-table tr td {padding:0px;}
+
+.form-enabled-table {}
+.form-enabled-table tr {}
+.form-enabled-table tr th {
+	font-weight:600; 
+	color:#808080; 
+	text-align: left;
+	vertical-align: top;
+	padding: 20px 10px 20px 0;
+	line-height: 1.3;
+	font-size: 14px;
+}
+.form-enabled-table tr td {padding:0px;}
+
+.sms4wp_auth_information {display: block; padding-left: 5px;}
+.sms4wp_auth_information a {color: #D89230; line-height: 1.5em;}
+.sms4wp_auth_information a:hover {color: #D8BC9D;}
+#sms4wp_charge, .sms4wp_group {width:300px;}
+div.local_desc01 {
+	margin: 10px 0px;
+	padding: 10px 20px 0;
+	min-width: 920px;
+	border: 1px solid #f2f2f2;
+	background: #f9f9f9;
+}
+
+table.widefat tr th {color:#333; line-height:1.4em; font-weight:normal; padding:10px; }
+table.widefat tr td { padding:5px 10px;  }
+
+/* */
+.message_count {display:block; margin:10px 0px; background:#f8f8f8; padding:5px; width:200px;}
+
+/* 가져오기/내보내기 */
+.formUpDown {margin-left:10px;}
+.form-table-updown {margin-left:30px;}
+.upload-progress, .download-progress {display:inline-block; vertical-align:middle; width:86px; height:32px;}
+.button-upload, .button-download {display:inline-block; vertical-align:middle;}
+
+/* 수신자관리 */
+.search-box select.receiver_group {float:left;}
+
+.transmit_numbers_add, .transmit_numbers_delete {font-weight:normal;}
+.transmit_num_delete {color:#979797;}
+.transmit_num_register {color:#B12020;}
+.transmit_num_register_succeed {color:#2070B1;}
+.transmit_num_register_failed {color:#B12020;}
+.transmit_num_register {color:#B12020;}
+ul.transmit_number_list {}
+ul.transmit_number_list li {position:relative;}
+.transmit-loading {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:100%; 
+	height:100%; 
+	min-height: 27px;
+	background: #F1F1F1 url(../img/loadingAnimation.gif) no-repeat 0px 7px;
+}
+
+/* 외부 플러그인 설정 */
+div.sms_option_form {
+	margin: 0;
+	padding: 0px 20px 10px 20px;
+	display: block;
+	border: 0px solid #EDEDED;
+}
+
+/* 발신자 번호 추가 */
+.sms4wp_description {color:#979797; display: inline-block; margin-top: 5px;}
+.sms4wp_wrap_timer {color:#2070B1; display: inline-block;}
+.sms4wp_wrap_timer .sms4wp_timer {}
+.sms4wp_pincode_response {display: none;}
+.sms4wp_progress {
+	margin-bottom: -4px;
+	background: url("../img/ajax-loader.gif") no-repeat;
+	width: 20px;
+	height: 20px;
+	display: none;
+	background-size: 20px;
+}
